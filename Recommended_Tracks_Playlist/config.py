@@ -1,7 +1,7 @@
 # Spotify API credentials
-USERNAME = "7kc2wwfmntq91nsp1lj8kwp2m"
-CLIENT_ID = '4bdc0b54059e4e86b128b508bcbab0d7'
-CLIENT_SECRET = 'cffe3a6ff38d4265a27d3cbb1cf4cd8e'
+USERNAME = ""
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 REDIRECT_URI = 'http://localhost:8080/callback'
 RECOMMENDED_TRACKS_SCOPE = 'user-library-read user-top-read playlist-modify-public'
 
@@ -14,4 +14,5 @@ MAX_REQUESTS = 199 #max number of api requests
 GRAPH_MAX_DEPTH = 3 #max depth that the graph is built to. starting tracks are considered depth 0
 PAUSE_TIME = 1 #seconds between 5 api requests for rate limiting
 MINIMUM_EDGES = 2 #the minimum number of edges a song must have to be added to the recommendations playlist
+
 TOP_TRACK_TIME_RANGE = "long_term" 
